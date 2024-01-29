@@ -1,0 +1,10 @@
+# 工程忽略目录
+Library/
+Temp/
+Logs/
+obj/
+.vs/
+.vscode/
+*.csproj
+*.sln
+UserSettings/
