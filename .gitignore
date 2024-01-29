@@ -1,10 +1,13 @@
 # 工程忽略目录
 Library/
+Build/
 Temp/
 Logs/
 obj/
 .vs/
 .vscode/
+.idea/
 *.csproj
 *.sln
 UserSettings/
+
