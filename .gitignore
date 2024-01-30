@@ -11,3 +11,4 @@ obj/
 *.sln
 UserSettings/
 
+.DS_Store
