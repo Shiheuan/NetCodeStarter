@@ -20,12 +20,15 @@ public class NetworkCommandLine : MonoBehaviour
             switch (mode)
             {
                 case "server":
+                    Debug.Log("cmd: start server.");
                     _networkMgr.StartServer();
                     break;
                 case "host":
+                    Debug.Log("cmd: start host.");
                     _networkMgr.StartHost();
                     break;
                 case "client":
+                    Debug.Log("cmd: start client.");
                     _networkMgr.StartClient();
                     break;
             }
